@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background: #242424;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+}
+h1 {
+    margin: 1rem;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh ;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+button {
+    padding: 12px 24px ;
+    background: rgb(228, 66, 66);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 20px;
+    outline: none;
+}
